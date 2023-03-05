@@ -475,11 +475,13 @@ body,
 .bp3-button.bp3-minimal *,
 .bp3-button.bp3-minimal *::before {
   color: var(--icon-color) !important;
+  /* color: orange; */
 }
 .bp3-button.bp3-minimal:hover::before,
 .bp3-button.bp3-minimal:hover *,
 .bp3-button.bp3-minimal:hover *::before {
   color: var(--text-color) !important;
+  /* color: orange; */
 }
 
 *[class*='bp3-icon'],
@@ -608,7 +610,7 @@ body,
 #roam-right-sidebar-content > div > .flex-h-box > .bp3-button,
 #roam-right-sidebar-content .flex-h-box > .bp3-popover-wrapper {
   margin: auto !important;
-  width: 20px !important;
+  /* width: 20px !important; */
   text-align: center;
 }
 #roam-right-sidebar-content > div > .flex-h-box > .bp3-button:first-child,
